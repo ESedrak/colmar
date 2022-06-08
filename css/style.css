@@ -91,3 +91,16 @@ nav li a {
 }
 
 /* start learning section */
+#learningHeader {
+  text-align: center;
+  padding: 32px;
+}
+
+#startLearning {
+  margin: 0 auto;
+  background-color: #eaebec;
+}
+
+#multipleCards {
+  max-width: 80%;
+}
