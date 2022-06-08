@@ -43,10 +43,6 @@ nav li a {
 
 /* banner */
 
-.container {
-  margin: 0;
-}
-
 #banner {
   background-color: #cfcfcf;
 }
@@ -93,3 +89,5 @@ nav li a {
 #guestLecture {
   background-color: rgb(206, 202, 202);
 }
+
+/* start learning section */
