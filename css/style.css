@@ -29,11 +29,30 @@ nav li a {
 
 /* banner */
 
+.container {
+  margin: 0;
+}
+
 #banner {
   background-color: #cfcfcf;
 }
 
 #banner img {
+  margin: 32px 0 32px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#bannerContent {
+  padding-top: 100px;
   margin-left: 24px;
-  margin-top: 32px;
+}
+
+#bannerButton {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #4a4a4a;
+  width: 100%;
+  padding: 8px;
+  color: white;
 }
