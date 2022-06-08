@@ -35,14 +35,14 @@ nav a {
 }
 
 /* Header section Desktop */
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 576px) {
   #mobile {
     display: none;
   }
 }
 
 /* Header section Mobile */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 576px) {
   #desktop {
     display: none;
   }
