@@ -125,3 +125,7 @@ nav li a {
 #thesisExhibit video {
   max-width: 100%;
 }
+
+.exhibitInfo {
+  padding: 16px;
+}
