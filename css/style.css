@@ -46,9 +46,13 @@ nav a {
   #desktop {
     display: none;
   }
-  #mobile {
-    display: inline;
-    margin: 0 auto;
+
+  #logoGroup {
+    margin-top: 20px;
+  }
+
+  .logoImg {
+    width: 40px;
   }
 }
 
@@ -148,7 +152,7 @@ nav a {
 /* start learning mobile */
 #startLearningMobile li {
   list-style: none;
-  padding: 16px 16px 24px 16px;
+  padding: 16px 24px;
   margin: 8px;
   background-color: #eaebec;
   display: block;
