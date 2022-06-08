@@ -73,5 +73,13 @@ nav li a {
 
 .thumbnail {
   max-width: 100%;
-  max-height: auto;
+  height: auto;
+}
+
+.extraInfo {
+  border-left: 1px solid rgb(206, 202, 202);
+}
+
+.oneExtraInfo {
+  border-bottom: 1px solid rgb(206, 202, 202);
 }
