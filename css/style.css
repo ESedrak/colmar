@@ -11,13 +11,7 @@
   margin: 0 auto;
 }
 
-/* header section Desktop */
-@media only screen and (min-width: 480px) {
-  #mobile {
-    display: none;
-  }
-}
-
+/* Header section */
 /*logo */
 #logoHeader {
   line-height: 32px;
@@ -39,6 +33,14 @@ nav a {
   color: black;
   padding: 16px;
 }
+
+/* Header section Desktop */
+@media only screen and (min-width: 480px) {
+  #mobile {
+    display: none;
+  }
+}
+
 /* Header section Mobile */
 @media only screen and (max-width: 500px) {
   #desktop {
