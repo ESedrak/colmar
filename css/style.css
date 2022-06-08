@@ -1,3 +1,11 @@
+/* global */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /* header section */
 #headerSection {
   height: 64px;
@@ -44,7 +52,6 @@ nav li a {
 }
 
 #bannerContent {
-  padding-top: 100px;
   margin-left: 24px;
 }
 
@@ -62,4 +69,9 @@ nav li a {
 #practice img {
   margin: 32px 0;
   max-width: 100%;
+}
+
+.thumbnail {
+  max-width: 100%;
+  max-height: auto;
 }
