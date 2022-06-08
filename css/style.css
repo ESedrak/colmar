@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+#pageWrap {
+  border: 1px solid rgb(206, 202, 202);
+  max-width: 80%;
+  margin: 0 auto;
+}
+
 /* header section */
 #headerSection {
   height: 64px;
@@ -71,8 +77,8 @@ nav li a {
   max-width: 100%;
 }
 
-.thumbnail {
-  max-width: 100%;
+.thumbnailImg {
+  width: 100%;
   height: auto;
 }
 
@@ -82,4 +88,8 @@ nav li a {
 
 .oneExtraInfo {
   border-bottom: 1px solid rgb(206, 202, 202);
+}
+
+#guestLecture {
+  background-color: rgb(206, 202, 202);
 }
