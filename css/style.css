@@ -53,7 +53,6 @@ nav a {
 }
 
 /* banner */
-
 #banner {
   background-color: #cfcfcf;
 }
@@ -85,7 +84,6 @@ nav a {
 }
 
 /* practice section */
-
 #practice img {
   margin: 32px 0;
   max-width: 100%;
@@ -137,7 +135,6 @@ nav a {
 }
 
 /* start learning desktop */
-
 #startLearningDesktop {
   background-color: #eaebec;
 }
@@ -189,6 +186,15 @@ nav a {
 #thesisFisma {
   background-color: rgb(206, 202, 202);
 }
+/* Thesis exhibit mobile */
+@media only screen and (max-width: 576px) {
+  #thesisExhibitBoxes {
+    display: none;
+  }
+  #thesisExhibitQuote {
+    display: none;
+  }
+}
 
 /* Footer section */
 footer {
@@ -202,4 +208,11 @@ footer {
 #footerConditions a {
   text-decoration: none;
   color: #4a4a4a;
+}
+
+/* Footer mobile */
+@media only screen and (max-width: 576px) {
+  #footerConditions {
+    display: none;
+  }
 }
