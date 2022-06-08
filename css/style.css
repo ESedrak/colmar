@@ -108,6 +108,13 @@ nav a {
   background-color: rgb(206, 202, 202);
 }
 
+/* practice section mobile */
+@media only screen and (max-width: 576px) {
+  .practiceMedia {
+    display: none;
+  }
+}
+
 /* start learning section */
 #learningHeader {
   text-align: center;
