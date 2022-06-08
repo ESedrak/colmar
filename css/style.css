@@ -1,0 +1,17 @@
+/* header section */
+#headerSection {
+  height: 64px;
+  background-color: yellow;
+}
+
+/*logo */
+#logoHeader {
+  line-height: 32px;
+  display: center;
+  padding-top: 15px;
+}
+
+#logoImg {
+  float: left;
+  margin-left: 24px;
+}
