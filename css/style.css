@@ -124,6 +124,10 @@ nav a {
   padding: 16px;
 }
 
+#thesisFisma {
+  background-color: rgb(206, 202, 202);
+}
+
 /* Footer section */
 footer {
   padding: 16px;
