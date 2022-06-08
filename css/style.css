@@ -11,7 +11,12 @@
   margin: 0 auto;
 }
 
-/* header section */
+/* header section Desktop */
+@media only screen and (min-width: 480px) {
+  #mobile {
+    display: none;
+  }
+}
 
 /*logo */
 #logoHeader {
@@ -25,7 +30,7 @@
 }
 /* navbar */
 
-nav {
+#desktop nav {
   float: right;
 }
 
@@ -33,6 +38,16 @@ nav a {
   text-decoration: none;
   color: black;
   padding: 16px;
+}
+/* Header section Mobile */
+@media only screen and (max-width: 500px) {
+  #desktop {
+    display: none;
+  }
+  #mobile {
+    display: inline;
+    margin: 0 auto;
+  }
 }
 
 /* banner */
