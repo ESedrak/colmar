@@ -106,12 +106,12 @@ nav a {
 }
 
 #startLearning {
-  margin: 0 auto;
   background-color: #eaebec;
 }
 
 #multipleCards {
   max-width: 80%;
+  margin: 0 auto;
   max-height: 100%;
 }
 
