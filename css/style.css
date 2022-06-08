@@ -112,3 +112,16 @@ nav li a {
 }
 
 /* Thesis exhibit */
+#thesisExhibit {
+  border-bottom: 1px solid rgb(206, 202, 202);
+  padding-bottom: 32px;
+}
+
+#thesisExhibitHeader {
+  text-align: center;
+  padding: 32px;
+}
+
+#thesisExhibit video {
+  max-width: 100%;
+}
